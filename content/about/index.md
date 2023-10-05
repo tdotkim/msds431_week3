@@ -6,11 +6,9 @@ seo_title: About Me
 description: Learn more about my background and experience.
 ---
 
-You can customize the about page heading and disable social links if desired. The rest of the content can be added with markdown. Please see [Github](https://github.com/wjh18/hugo-liftoff) for a full list of features and documentation.
-
 ## Who am I?
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce sem augue, tristique luctus lobortis nec, cursus eu erat. Proin dictum vel enim a vestibulum.
+Tae-Seung (TK) Kim. I'm currently a student at Northwestern University pursuing a Masters in Data Science. I also work at Wells Fargo as a Senior Lead Analytics Consultant on the Marketing Sciences team. 
 
 ## My Experience
 
