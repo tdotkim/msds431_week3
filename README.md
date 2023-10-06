@@ -1,34 +1,3 @@
----
-title: MSDS431 Week 3 Project - Portfolio
-seo_title: Portfolio Project 1
-summary: This project was to create a personal website to act as resume + LinkedIn.
-description: A personal portfolio.
-slug: MSDS431-Week-3
-author: Tae-Seung Kim
-
-draft: false
-date: 2023-10-05T09:52:30-05:00
-lastmod: 
-expiryDate: 
-publishDate: 
-
-feature_image: web-design.jpg
-feature_image_alt: Web design
-
-project types: 
-    - Personal
-
-techstack:
-    - Hugo
-    - HTML/CSS
-    - JavaScript
-    - Netlify
-live_url: https://tkim.netlify.app/
-source_url: https://github.com/tdotkim/msds431_week3
----
-
-This project showcases a quick and easy standup of a personal website using Hugo + Netlify.
-
 ## Creating a Personal Website using Hugo + Netlify
 
 ### Project Summary
