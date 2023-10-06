@@ -1,6 +1,6 @@
 ---
 title: Analyst with a hybrid background of Data Engineering and Data Analytics
-subtitle: Welcome to my technical portfolio showcasing my projects in Data Engineering & Analysis!
+subtitle: Welcome to my technical portfolio showcasing my projects in Data Engineering & Analysis! This was created for my Week 2 Assignment in MSDS 431.
 seo_title: Tae-Seung Kim | Portfolio | Data Engineering & Analysis
 
 primary_cta_page: "about"

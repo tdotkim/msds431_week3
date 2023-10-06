@@ -1,13 +1,13 @@
 ---
-title: Portfolio Project 1
+title: MSDS431 Week 3 Project - Portfolio
 seo_title: Portfolio Project 1
-summary: Portfolio Project 1 is my first portfolio project.
-description: Portfolio Project 1 is my first portfolio project.
+summary: This project was to create a personal website to act as resume + LinkedIn.
+description: A personal portfolio.
 slug: portfolio-project-1
-author: John Doe
+author: Tae-Seung Kim
 
 draft: false
-date: 2019-02-20T03:52:30-05:00
+date: 2023-10-05T20:52:30-05:00
 lastmod: 
 expiryDate: 
 publishDate: 
@@ -23,23 +23,15 @@ techstack:
     - HTML/CSS
     - JavaScript
     - Netlify
-live_url: https://hugo-liftoff.netlify.app
-source_url: https://github.com/wjh18/hugo-liftoff
+live_url: https://tkim.netlify.app/
+source_url: https://github.com/tdotkim/msds431_week3
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+This project showcases a quick and easy standup of a personal website using Hugo + Netlify.
 
 ## Headings
 
-The following HTML `<h2>`—`<h6>` elements represent five levels of section headings. `<h2>` is the highest section level you should use in markdown while `<h6>` is the lowest. `<h1>` should be reserved for the page title.
-
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-## Paragraph
+#### Paragraph
 
 Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
