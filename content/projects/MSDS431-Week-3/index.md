@@ -29,120 +29,39 @@ source_url: https://github.com/tdotkim/msds431_week3
 
 This project showcases a quick and easy standup of a personal website using Hugo + Netlify.
 
-## Summary
+## Creating a Personal Website using Hugo + Netlify
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+### Project Summary
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+For Week 3 we were tasked to create our own personal portfolio website that would stand in place of our resume and our LinkedIn Profile. 
 
-## Blockquotes
+To do so we were given a very useful recording from Learn Robotic's Liz Miller. She gave a great walkthrough for setting up a portfolio using the Liftoff theme.
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
 
-### Blockquote without attribution
+### Hugo Setup
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
+I'll only be listing folders that were modified.
 
-### Blockquote with attribution
+*assets:* \
+This folder holds key assets like the javascript files and images. I added in a Northwestern image to use as the avater for the main page.
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
+*config and config/_default:* \
+This folder holders the .toml files. I primarily used _default for this assignment. In a real development scenario it would be better to leave defaults as is and then overwrite the settings manually in the dev/prod folders. 
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+*content:* \
+This folder is important in that these markdown files power the pages themselves. I shortened and trimmed the main page to get rid of the blog posts and setup the nav structure similar to how Liz Miller did it. Note that you'll need to coordinate the changes from params.toml with changes here.
 
-## Tables
+I also edited the About page to look more like my resume. 
 
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+I also did a sample post, MSDS431 Week 3 Project - Portfolio, to show what this would look like on the site.
 
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
+*layouts:* \
+Touched this folder briefly to play around with shortcodes and tried to add in a table of contents for the about page. A little tougher to do as the template makes everything so spread out. Could not figure out a clean way to get the floating table of contents to work. 
 
-### Inline Markdown within tables
+### Netlify Setup
 
-| Italics   | Bold     | Code   |
-| --------  | -------- | ------ |
-| *italics* | **bold** | `code` |
+Set-up was a breeze using the free plan. Netlify can connect directly to the GitHub repository and enable CI/CD based on pushes to the main branch. Free custom names are also available in the netlify.app space. Additional setup can be done to enable fully custom vanity URLs.
 
-## Code Blocks
+### References
 
-### Code block with backticks
-
-```html
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-```
-
-### Code block indented with four spaces
-
-    <!doctype html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
-
-### Code block with Hugo's internal highlight shortcode
-
-{{< highlight html >}}
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
-
-## List Types
-
-### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-### Unordered List
-
-* List item
-* Another item
-* And another item
-
-### Nested list
-
-* Fruit
-  * Apple
-  * Orange
-  * Banana
-* Dairy
-  * Milk
-  * Cheese
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+Miller, Liz. 2023. "Portfolio Power-Up: Elevate Your Technical Brand with Hugo". 2023. https://join.learnrobotics.org/hugoconf-2023-training  \
